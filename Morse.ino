@@ -14,107 +14,107 @@ void loop()
   icb=Serial.read();
   switch(icb)
   {
-    case 65://A
+   case 'a':
             morse.dot();morse.dash();
             delay(250*3);
             break;
-    case 66://B
+   case 'b':
             morse.dash();morse.dot();morse.dot();morse.dot();
             delay(250*3);
             break;
-    case 67://C
+   case 'c':
             morse.dash();morse.dot();morse.dash();morse.dot();
             delay(250*3);
             break;
-    case 68://D
+   case 'd':
             morse.dash();morse.dot();morse.dot();
             delay(250*3);
             break;
-    case 69://E
+   case 'e':
             morse.dot();
             delay(250*3);
             break;
-    case 70://F
+   case 'f':
             morse.dot();morse.dot();morse.dash();morse.dot();
             delay(250*3);
             break;
-    case 71://G
+   case 'g':
             morse.dash();morse.dash();morse.dot();
             delay(250*3);
             break;
-    case 72://H
+   case 'h':
             morse.dot();morse.dot();morse.dot();morse.dot();
             delay(250*3);
             break;
-    case 73://I
+   case 'i':
             morse.dot();morse.dot();
             delay(250*3);
             break;
-    case 74://J
+   case 'g':
             morse.dot();morse.dash();morse.dash();morse.dash();
             delay(250*3);
             break;
-    case 75://K
+   case 'k':
             morse.dash();morse.dot();morse.dash();
             delay(250*3);
             break;
-    case 76://L
+   case 'l':
             morse.dot();morse.dash();morse.dash(); morse.dot();morse.dot();
             delay(250*3);
             break;
-    case 77://M
+   case 'm':
             morse.dash();morse.dash();
             delay(250*3);
             break;
-    case 78://N
+   case 'n':
             morse.dash();morse.dot();
             delay(250*3);
             break;
-    case 79://o
+   case 'o':
             morse.dash(); morse.dash(); morse.dash();
             delay(250*3);
             break;
-    case 80://P
+   case 'p':
             morse.dot(); morse.dash(); morse.dash();morse.dot（）；
             delay(250*3);
             break;
-     case 81://R
+   case 'r':
             morse.dot(); morse.dash(); morse.dash();morse.dot（）；
             delay(250*3);
             break;
-    case 82://S
+   case 's':
             morse.dot();morse.dot();morse.dot（）；
             delay(250*3);
             break;
-    case 83://T
+   case 't':
             morse.dash();
             delay(250*3);
             break;
-    case 84://U
+   case 'u':
             morse.dot();morse.dot();morse.dash();
             delay(250*3);
             break;
-    case 85://V
+   case 'v':
             morse.dot();morse.dot();morse.dot();morse.dash();
             delay(250*3);
             break;
-     case 82://W
+   case 'w':
             morse.dot();morse.dash();morse.dash();
             delay(250*3);
             break;
-    case 83://X
+   case 'x":
             morse.dash();morse.dot();morse.dot();morse.dash();
             delay(250*3);
             break;
-    case 84://Y
+   case 'y':
             morse.dash();morse.dot();morse.dash();morse.dash();
             delay(250*3);
             break;
-    case 85://Z
+   case 'z':
             morse.dash();morse.dot();pmorse.dash();morse.dot();
             delay(250*3);
             break;
-    case 32://空格
+   case ' ':
             delay(250*3)
             break;
     default
